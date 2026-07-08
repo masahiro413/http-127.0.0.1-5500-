@@ -1,0 +1,52 @@
+// Variables
+$primary-color: #333;
+$secondary-color: #666;
+$font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Base styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-stack;
+  color: $primary-color;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+// Header
+header {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 20px 0;
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+// Main content
+main {
+  padding: 40px 0;
+
+  p {
+    color: $secondary-color;
+    margin-bottom: 1rem;
+  }
+}
+
+// Footer
+footer {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
